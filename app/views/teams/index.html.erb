@@ -17,6 +17,7 @@
 	<div id="table">
 		<table>	
   			<tr class="column1">
+				<th><strong>Event</strong></th>
     			<th><strong>Team Name</strong></th>
     			<th><strong>Captain</strong></th>
     			<th><strong>Member2</strong></th>
@@ -29,6 +30,7 @@
 
 			<% @teams.each do |team| %>
   			<tr>
+				<td><%= team.event %></td>
     			<td><%= team.name %></td>
     			<td><%= team.captain %></td>
     			<td><%= team.member2 %></td>
