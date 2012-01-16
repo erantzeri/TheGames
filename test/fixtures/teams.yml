@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  captain: MyString
+  member2: MyString
+  member3: MyString
+  member4: MyString
+
+two:
+  name: MyString
+  captain: MyString
+  member2: MyString
+  member3: MyString
+  member4: MyString
