@@ -5,15 +5,14 @@
 
       <ul>
       <% @team.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
+        <li><strong><%= msg %></strong></li>
       <% end %>
       </ul>
     </div>
-  <% end %>
+  <% end %> 
 
   <div class="field">
-    <%= f.label 'Event' %><br />
-    <%= f.text_field :event %>
+    <%= f.label 'Event' %>&nbsp;&nbsp;    <%= f.select :event, options_for_select([["Select One", ""], "Darts", "Cornhole", "BeerPong"]), :class => 'genForm_dropBox' %><br /><br />
   </div><div class="field">
     <%= f.label 'Team Name' %><br />
     <%= f.text_field :name %>
